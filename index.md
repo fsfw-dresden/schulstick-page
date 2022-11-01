@@ -16,7 +16,7 @@ layout: home
 - Funktion, den Stick bei Problemen komplett oder teilweise zurückzusetzen
 - erweiterbar und anpassbar, z.B. auf spezielle Bedürfnisse einer Schule (Stichwort »Schul-Proxy«…)
 
-![Screenshot with Anmerkungen (2021-02-10)](../../doc/screenshot-Xfce-Desktop-2021-02-10.png "Screenshot 2021 Stick with Anmerkungen (2021-02-10)")
+![Screenshot with Anmerkungen (2021-02-10)](/doc/screenshot-Xfce-Desktop-2021-02-10.png "Screenshot 2021 Stick with Anmerkungen (2021-02-10)")
 
 Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie in der [Haupt-Readme](https://github.com/fsfw-dresden/usb-live-linux) dieses Projekt.
 
@@ -47,4 +47,4 @@ Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie ma
 - Multisprach-System (=> Grub Boot-Menü)
 - international versions (f.e. India, Africa, Ukraine..)
 - gemeinsames Build-Framework mit dem Lernstick
-- siehe auch [doc/Developing-TODO.md](../../doc/Developing-TODO.md)
+- siehe auch [doc/Developing-TODO.md](/doc/Developing-TODO.md)
