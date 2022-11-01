@@ -8,6 +8,8 @@
 body {
     font-family: TitilliumWeb;
     margin: 0;
+    background-color: var(--lightblue);
+    background-image: url(transparent-background-image.png);
 }
 h1, h2 {
     font-family: WalterTurncoat;
@@ -15,25 +17,12 @@ h1, h2 {
 img {
     width: 100%;
 }
-.background {
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url(background-image.jpg);
-}
-
-.background-overlay {
-    background-color: var(--lightblue);
-    opacity: 0.8;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-}
-
 .header {
     position: sticky;
     left:0;
     top: 0;
     background-color: var(--blue);
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid var(--white);
     z-index: 10;
 }
 .header-wrapper {
@@ -56,7 +45,7 @@ img {
     margin: 0 auto;
     font-size: 2rem;
     font-family: WalterTurncoat;
-    color: white;
+    color: var(--white);
     user-select: none;
     cursor:pointer;
 }
@@ -64,7 +53,7 @@ img {
     display: inline-block;
     position: relative;
     padding: 0.5em 1em;
-    color: white;
+    color: var(--white);
     text-decoration: none;
     font-family: WalterTurncoat;
     font-family: TitilliumWeb;
@@ -97,14 +86,12 @@ img {
 .content-wrapper {
     max-width: 1280px;
     margin: 0 auto;
-    border-left: 4px solid white;
-    border-right: 4px solid white;
-    background-color:white;
 }
 .content {
     position: relative;
     padding: 2em;
-    background-color: white;
+    background-color: var(--white);
+    box-shadow: 5px 0 15px 5px #2226;
 }
 
 
