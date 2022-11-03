@@ -20,6 +20,7 @@ layout: home
 
 Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie in der [Haupt-Readme](https://github.com/fsfw-dresden/usb-live-linux) dieses Projekt.
 
+
 ## Kostenlose Probesticks
 .. gibt es ab sofort für Lehrkräfte aller Schulformen. Füllen Sie dafür einfach unser [Web-Formular](https://survey.opensourceecology.de/index.php?r=survey/index&sid=281135) aus.
 
