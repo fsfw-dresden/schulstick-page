@@ -1,17 +1,24 @@
 ---
 layout: default
 ---
-<!--style>
-    img {
-        margin-left: -2em;
-        margin-right: -2em;
-        width: calc(100% + 4em) !important;
-    }
-</style-->
-{% include header.html currentPage="home"%}
-    <div class="content-wrapper">
-        <div class="content">
-            {{content}}
+{% include header.html %}
+    <div class="image-slider">
+        <div class="single-big">
+            <img class="back">
+            <img class="front" src="assets\img\slider\Schulstick_16_9_blaue Version.png">
         </div>
+        <div class="multiple-small">
+            {% for image in site.static_files %}
+                {% if image.path contains 'img/slider' %}
+                    <div class="single-small">
+                        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" onclick="switchImage(this)">
+                        <div class="overlay"><p>{{ image.path }}</p></div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="content">
+        {{content}}
     </div>
 {% include footer.html%}

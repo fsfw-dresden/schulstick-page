@@ -1,0 +1,30 @@
+@font-face {
+    font-family: WalterTurncoat;
+    src:url(fonts/WalterTurncoat-Regular.ttf);
+}
+@font-face {
+    font-family: TitilliumWeb;
+    src: url(fonts/TitilliumWeb-Regular.ttf);
+}
+
+$blue: #2f67a4;
+$lightblue: #9ec7ff;
+$green: #64A56B;
+$lightgreen: #D1E7CE;
+$white: #ffffff;
+/*border-radius*/
+$radius: 8px; 
+
+@mixin overlay {
+    @include full-after;
+}
+
+@mixin full-after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none; 
+}
