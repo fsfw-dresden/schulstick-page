@@ -12,7 +12,9 @@ layout: default
                 {% if image.path contains 'img/slider' %}
                     <div class="single-small">
                         <img src="{{ site.baseurl }}{{ image.path }}" alt="image" onclick="switchImage(this)">
-                        <div class="overlay"><p>{{ image.path }}</p></div>
+                        <div class="overlay">
+                            <p class="loading">{{ image.path }}</p>
+                        </div>
                     </div>
                 {% endif %}
             {% endfor %}

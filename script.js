@@ -24,6 +24,7 @@ function switchImage(img) {
 [...document.querySelectorAll(".single-small .overlay p")].forEach(p => {
     p.innerText = p.innerText.slice("/assets/img/slider/".length);
     p.innerText = p.innerText.slice(0,p.innerText.length - 4);
+    p.classList.remove("loading");
 });
 
 

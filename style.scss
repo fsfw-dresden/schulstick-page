@@ -116,6 +116,9 @@ h1 {
                 flex: 1;
                 align-self: flex-end;
             }
+            p.loading {
+                opacity: 0;
+            }
         }
         &:not(.active) img{
                 filter: grayscale(100%);
