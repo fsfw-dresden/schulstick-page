@@ -26,23 +26,20 @@ Füllen Sie dafür einfach unser [Web-Formular](https://survey.opensourceecology
 <section class="two-columns" markdown="1">
 
 ## Download und Bespielen eines USB-Sticks
-Wir sind gerade dabei, ein Debian-11-basiertes Release fertigzustellen.
-Die letztjährige Version (1734v / 2021-04-24) basierend auf Debian-Linux 10 (stable, codename »buster«) lässt sich hier herunterladen:
+Die aktuelle Version (2286a / 2022-10-28) basiert auf Debian-Linux 11 (stable, codename »bullseye«) mit dem Xfce-Desktop.
 
 Für die Installation des FSFW-Schulsticks braucht es (mindestens) einen 16-Gigabyte-USB-Stick guter Qualität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt.
 
 Damit einfach die komprimierte Image-Datei auswählen und auf den Stick "flashen". Das Programm verifiziert den erzeugten Stick auch, so dass bei erfolgreich vermeldetem Abschluss der Stick auch funktionieren sollte.
 Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, da sich die Persistenz-Partition beim ersten Start auf die verfügbare Größe anpasst.
 
-> **Image-Datei** (7,5 GiB):
+> **Image-Datei** (11,1 GiB):
 > 
-> [FSFW-Schulstick_1734v_Xfce_buster-amd64.img.gz](https://web.fsr.mw.tu-dresden.de/dateien/FSFW_Schulstick_2021/FSFW-Schulstick_1734v_Xfce_buster-amd64.img.gz)  
+> [FSFW-Schulstick_2286a_Xfce_bullseye-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2286a_Xfce_bullseye-amd64.hybrid.img.gz)
 >
-> dazugehörige **SHA256-Prüfsumme**:
+> zugehörige **SHA256-Prüfsumme**: c031e9d521b206a9c0100a65aecf32e140416aa59b3f994f494c33aafc5bfd4f
 >
-> [FSFW-Schulstick_1734v_Xfce_buster-amd64.img.gz.sha256sum](https://web.fsr.mw.tu-dresden.de/dateien/FSFW_Schulstick_2021/FSFW-Schulstick_1734v_Xfce_buster-amd64.img.gz.sha256sum)
->
-> **Live-Demo** ohne Download direkt im Webbrowser:
+> **Live-Demo** der vorherigen Version (2021.4) ohne Download direkt im Webbrowser:
 >
 > [https://distrotest.net/Schulstick%20Linux/2021.4](https://distrotest.net/Schulstick%20Linux/2021.4)
 {: .downloads .right}
@@ -54,21 +51,21 @@ Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, d
 ## Verbesserungsvorschläge — Freie Software lebt vom Mitmachen : )
 
 Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie man etwas besser machen kann:<br/>
-einfach hier auf der Github-Projekt-Seite oben unter "Issues" suchen oder einen neuen Fall anlegen.
+einfach auf der Github-Projekt-Seite oben unter "Issues" suchen oder einen neuen Fall anlegen.
 
-## Weitere Pläne / Kompetenzen gesucht
+## Weitere Pläne (zum Mitmachen!)
 - Python/Qt-Portal-App für Open Educational Resources: Tutorials, walk-throughs und Challenges für auf dem Stick vorhandene Software
 - Barrierefreiheit prüfen und verbessern
 - Multisprach-System (=> Grub Boot-Menü)
 - international versions (f.e. India, Africa, Ukraine..)
-- gemeinsames Build-Framework mit dem Lernstick
+- gemeinsames Build-Framework mit dem [Lernstick](https://lernstick.ch/)
 - siehe auch [doc/Developing-TODO.md](/doc/Developing-TODO.md)
 
 </section>
 ---
 <section class="centered" markdown="1">
 
-## Videos(Test)
+## Kurzvorstellung des FSFW-Stick-Projekts
 
 {% include video.html youtubeid="9XeJtgMcmKk" %}
 
