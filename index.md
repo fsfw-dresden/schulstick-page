@@ -16,7 +16,7 @@ layout: home
 - erweiterbar und anpassbar, z.B. auf spezielle Bedürfnisse einer Schule (Stichwort »Schul-Proxy«…)
 
 
-Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie in der [Haupt-Readme](https://github.com/fsfw-dresden/usb-live-linux) dieses Projekt.
+Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf der [Hauptseite](https://github.com/fsfw-dresden/usb-live-linux) dieses Projekts.
 
 **Kostenlose Probesticks** gibt es ab sofort für Lehrkräfte aller Schulformen.
 Füllen Sie dafür einfach unser [Web-Formular](https://survey.opensourceecology.de/index.php?r=survey/index&sid=281135) aus.
@@ -51,7 +51,7 @@ Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, d
 ## Verbesserungsvorschläge — Freie Software lebt vom Mitmachen : )
 
 Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie man etwas besser machen kann:<br/>
-einfach auf der Github-Projekt-Seite oben unter "Issues" suchen oder einen neuen Fall anlegen.
+einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-linux) oben unter [Issues](https://github.com/fsfw-dresden/usb-live-linux/issues) suchen oder einen neuen Fall anlegen.
 
 ## Weitere Pläne (zum Mitmachen!)
 - Python/Qt-Portal-App für Open Educational Resources: Tutorials, walk-throughs und Challenges für auf dem Stick vorhandene Software
@@ -59,7 +59,7 @@ einfach auf der Github-Projekt-Seite oben unter "Issues" suchen oder einen neuen
 - Multisprach-System (=> Grub Boot-Menü)
 - international versions (f.e. India, Africa, Ukraine..)
 - gemeinsames Build-Framework mit dem [Lernstick](https://lernstick.ch/)
-- siehe auch [doc/Developing-TODO.md](/doc/Developing-TODO.md)
+- siehe auch [Developing-TODO.md](https://github.com/fsfw-dresden/usb-live-linux/blob/main/doc/Developing-TODO.md)
 
 </section>
 ---
