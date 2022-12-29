@@ -115,9 +115,13 @@ h1 {
                 background-color: #0006;
                 flex: 1;
                 align-self: flex-end;
+                opacity: 0;
             }
             p.loading {
                 opacity: 0;
+            }
+            p:hover {
+                opacity: 1;
             }
         }
         &:not(.active) img{
