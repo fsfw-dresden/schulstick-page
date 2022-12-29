@@ -37,7 +37,7 @@ Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, d
 > 
 > [FSFW-Schulstick_2286a_Xfce_bullseye-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2286a_Xfce_bullseye-amd64.hybrid.img.gz)
 >
-> zugehörige **SHA256-Prüfsumme**: c031e9d521b206a9c0100a65aecf32e140416aa59b3f994f494c33aafc5bfd4f
+> zugehörige **SHA256-Prüfsumme**: `c031e9d521b206a9c0100a65aecf32e140416aa59b3f994f494c33aafc5bfd4f`
 >
 > **Live-Demo** der vorherigen Version (2021.4) ohne Download direkt im Webbrowser:
 >
