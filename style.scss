@@ -209,6 +209,10 @@ section.two-columns {
             box-shadow: inset 30em 0 0 0 #8fc866;
         }
     }
+    code {
+	text-overflow: ellipsis;
+	overflow: clip;
+    }
 }
 
 ul li {
