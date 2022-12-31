@@ -13,13 +13,13 @@ layout: home
 - Nachinstallieren weiterer Programme möglich
 - mit automatischen Sicherheitsupdates
 - Funktion, den Stick bei Problemen komplett oder teilweise zurückzusetzen
+- auch in weiteren Varianten mit etwas unterschiedlicher Software-Auswahl für unterschiedliche Zielgruppen (Schulstick, Uni-Stick, Makerstick)
 - erweiterbar und anpassbar, z.B. auf spezielle Bedürfnisse einer Schule (Stichwort »Schul-Proxy«…)
-
-
-Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf der [Hauptseite](https://github.com/fsfw-dresden/usb-live-linux) dieses Projekts.
 
 **Kostenlose Probesticks** gibt es ab sofort für Lehrkräfte aller Schulformen.
 Füllen Sie dafür einfach unser [Web-Formular](https://survey.opensourceecology.de/index.php?r=survey/index&sid=281135) aus.
+
+Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf der [Hauptseite](https://github.com/fsfw-dresden/usb-live-linux) dieses Projekts.
 
 </section>
 ---
@@ -51,7 +51,7 @@ Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, d
 ## Verbesserungsvorschläge — Freie Software lebt vom Mitmachen : )
 
 Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie man etwas besser machen kann:<br/>
-einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-linux) oben unter [Issues](https://github.com/fsfw-dresden/usb-live-linux/issues) suchen oder einen neuen Fall anlegen.
+einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-linux) oben unter [Issues](https://github.com/fsfw-dresden/usb-live-linux/issues) einen neuen Fall anlegen.
 
 ## Weitere Pläne (zum Mitmachen!)
 - Python/Qt-Portal-App für Open Educational Resources: Tutorials, walk-throughs und Challenges für auf dem Stick vorhandene Software
@@ -69,4 +69,12 @@ einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-
 
 {% include video.html youtubeid="9XeJtgMcmKk" %}
 
+</section>
+---
+<section class="centered" markdown="1">
+
+## Impressum
+Eine Initiative der «[Freie Software Freies Wissen Hochschulgruppe Dresden](https://fsfw-dresden.de/)».
+
+![Kontakt](assets/img/stick-kontakt.png)
 </section>
