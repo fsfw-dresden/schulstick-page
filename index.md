@@ -67,7 +67,7 @@ einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-
 
 ## Kurzvorstellung des FSFW-Stick-Projekts
 
-{% include video.html youtubeid="9XeJtgMcmKk" %}
+{% include video.html youtubeid="9XeJtgMcmKk" alttext="Video: Vorstellung des FSFW-Stick-Projekts bei der Dresden OpenSource UserGroup" %}
 
 </section>
 ---
