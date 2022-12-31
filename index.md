@@ -76,5 +76,5 @@ einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-
 ## Impressum
 Eine Initiative der «[Freie Software Freies Wissen Hochschulgruppe Dresden](https://fsfw-dresden.de/)».
 
-![Kontakt](assets/img/stick-kontakt.png)
+![Kontakt](assets/img/stick-kontakt.svg)
 </section>
