@@ -28,20 +28,16 @@ Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf de
 ## Download und Bespielen eines USB-Sticks
 Die aktuelle Version (2286a / 2022-10-28) basiert auf Debian-Linux 11 (stable, codename »bullseye«) mit dem Xfce-Desktop.
 
-Für die Installation des FSFW-Schulsticks braucht es (mindestens) einen 16-Gigabyte-USB-Stick guter Qualität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt.
+Für die Installation des FSFW-Schulsticks braucht es (mindestens) einen 16-Gigabyte-USB-Stick guter Qualität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt. Wer die Kommandozeile nutzen mag, nimmt auf Linux am besten das [block map tool](https://github.com/intel/bmap-tools) (`bmaptool copy [Image-URL (….img.gz)] [USB-Stick-Gerät]`).
 
 Damit einfach die komprimierte Image-Datei auswählen und auf den Stick "flashen". Das Programm verifiziert den erzeugten Stick auch, so dass bei erfolgreich vermeldetem Abschluss der Stick auch funktionieren sollte.
-Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, da sich die Persistenz-Partition beim ersten Start auf die verfügbare Größe anpasst.
+Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da sich die Persistenz-Partition beim ersten Start auf die verfügbare Größe anpasst.
 
 > **Image-Datei** (11,1 GiB):
 > 
 > [FSFW-Schulstick_2286a_Xfce_bullseye-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2286a_Xfce_bullseye-amd64.hybrid.img.gz)
 >
 > zugehörige **SHA256-Prüfsumme**: `c031e9d521b206a9c0100a65aecf32e140416aa59b3f994f494c33aafc5bfd4f`
->
-> **Live-Demo** der vorherigen Version (2021.4) ohne Download direkt im Webbrowser:
->
-> [https://distrotest.net/Schulstick Linux/2021.4](https://distrotest.net/Schulstick%20Linux/2021.4)
 {: .downloads .right}
 
 </section>
