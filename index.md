@@ -41,7 +41,7 @@ Das Image kann auch für USB-Sticks mit mehr als 16 Gigabyte verwendet werden, d
 >
 > **Live-Demo** der vorherigen Version (2021.4) ohne Download direkt im Webbrowser:
 >
-> [https://distrotest.net/Schulstick%20Linux/2021.4](https://distrotest.net/Schulstick%20Linux/2021.4)
+> [https://distrotest.net/Schulstick Linux/2021.4](https://distrotest.net/Schulstick%20Linux/2021.4)
 {: .downloads .right}
 
 </section>

@@ -115,13 +115,7 @@ h1 {
                 background-color: #0006;
                 flex: 1;
                 align-self: flex-end;
-                opacity: 0;
-            }
-            p.loading {
-                opacity: 0;
-            }
-            p:hover {
-                opacity: 1;
+                display: none;
             }
         }
         &:not(.active) img{
@@ -200,8 +194,8 @@ section.two-columns {
         border-radius: 2em;
         display: inline-block;
         position: relative;
-        top: -0.5em;
         transition: 0.5s;
+        font-weight: bold;
         text-align: center;
         width: 100%;
         &:hover, &:focus {
