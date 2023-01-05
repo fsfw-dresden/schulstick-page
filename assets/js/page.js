@@ -8,16 +8,22 @@ window.addEventListener("scroll", () => {
 
 let bigImage = document.querySelector(".single-big img.front");
 let bigImageBack = document.querySelector(".single-big img.back");
-function switchImage(img) {
-    bigImageBack.src = img.src;
-    bigImage.classList.add("disappearing");
-    setTimeout(() => {
-        if (imageIntervalRunning) {
-            bigImage.src = bigImageBack.src;
-            bigImage.classList.remove("disappearing");
-        }
-    }, 500)
-
+function switchImage(img, manualClick = false) {
+    if (manualClick) {
+        bigImageBack.src = img.src;
+        bigImage.src = img.src;
+        imagIntervalRunning = false;
+        clearInterval(imageInterval);
+    } else {
+        bigImageBack.src = img.src;
+        bigImage.classList.add("disappearing");
+        setTimeout(() => {
+            if (imageIntervalRunning) {
+                bigImage.src = bigImageBack.src;
+                bigImage.classList.remove("disappearing");
+            }
+        }, 500);
+    }
 }
 
 
