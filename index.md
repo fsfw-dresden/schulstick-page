@@ -26,6 +26,10 @@ Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf de
 <section class="two-columns" markdown="1">
 
 ## Download und Bespielen eines USB-Sticks
+#### Status-Update 2023-09-29: Bookworm
+Wir arbeiten aktuell intensiv an der Fertigstellung der neuen, auf Debian 12 (»bookworm«) basierenden Version. Die umfangreichen (bereits mehr als 300 seit dem Februar-Release) Änderungen sind nahezu abgeschlossen und wir testen seit Wochen eifrig, damit wir ein funktionstüchtiges Software-Paket anbieten können. Deshalb bitten wir noch um wenige Tage Geduld.
+
+#### Vorherige Version
 Die aktuelle Version (2405d / 2023-02-23) basiert auf Debian-Linux 11 (stable, codename »bullseye«) mit dem Xfce-Desktop.
 
 Für die Installation des FSFW-Schulsticks braucht es (mindestens) einen 16-Gigabyte-USB-Stick guter Qualität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt. Wer die Kommandozeile nutzen mag, nimmt auf Linux am besten das [block map tool](https://pkgs.org/search/?q=bmaptool&on=files) (`bmaptool copy [Image-URL (….img.gz)] [USB-Stick-Gerät]`).
@@ -49,8 +53,10 @@ Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da si
 Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie man etwas besser machen kann:<br/>
 einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-linux) oben unter [Issues](https://github.com/fsfw-dresden/usb-live-linux/issues) einen neuen Fall anlegen.
 
-## Weitere Pläne (zum Mitmachen!)
-- Python/Qt-Portal-App für Open Educational Resources: Tutorials, walk-throughs und Challenges für auf dem Stick vorhandene Software
+## Förderung durch das Sächsische Staatsministerium für Kultus
+Wir sind mit einem Förderantrag im Rahmen der Initiative "Digitale Schule Sachsen" erfolgreich gewesen und freuen uns auf die Chance, mit dieser Unterstützung an einem „Selbstlernportal“ für freie Software arbeiten zu können. Wir finalisieren im Moment die technische Ausschreibung, um dann die Programmierarbeit ausschreiben zu können. Kern des Unterfangens ist eine Python/Qt-Portal-App für Open Educational Resources mit Tutorials, Walk-Throughs und Challenges für auf dem Stick vorhandene Software. Wir sind im Augenblick dabei, uns dazu auch didaktische Unterstützung ins Boot zu holen und sind optimistisch, in den nächsten Monaten überzeugende Ergebnisse präsentieren zu können.
+
+## Weitere Pläne
 - Barrierefreiheit prüfen und verbessern
 - Multisprach-System (=> Grub Boot-Menü)
 - international versions (f.e. India, Africa, Ukraine..)
