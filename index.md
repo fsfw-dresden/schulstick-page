@@ -4,7 +4,6 @@ layout: home
 <section class="centered" markdown="1">
 
 # Der Freie-Software-Freies-Wissen-Schulstick
-
 - eine Lern-, Spiel- und Arbeitsplattform für Schüler von der Grundschule bis zum Abschluss
 - mit aktueller Freier Software für viele Anwendungsbereiche
 - alle Programme offline und ohne Registrierung oder Installation nutzbar
@@ -26,22 +25,18 @@ Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf de
 <section class="two-columns" markdown="1">
 
 ## Download und Bespielen eines USB-Sticks
-#### Status-Update 2023-09-29: Bookworm
-Wir arbeiten aktuell intensiv an der Fertigstellung der neuen, auf Debian 12 (»bookworm«) basierenden Version. Die umfangreichen (bereits mehr als 300 seit dem Februar-Release) Änderungen sind nahezu abgeschlossen und wir testen seit Wochen eifrig, damit wir ein funktionstüchtiges Software-Paket anbieten können. Deshalb bitten wir noch um wenige Tage Geduld.
+Die aktuelle Version (2623w / 2023-09-30) basiert auf Debian-Linux 12 (stable, codename »bookworm«) mit dem Xfce-Desktop.
 
-#### Vorherige Version
-Die aktuelle Version (2405d / 2023-02-23) basiert auf Debian-Linux 11 (stable, codename »bullseye«) mit dem Xfce-Desktop.
-
-Für die Installation des FSFW-Schulsticks braucht es (mindestens) einen 16-Gigabyte-USB-Stick guter Qualität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt. Wer die Kommandozeile nutzen mag, nimmt auf Linux am besten das [block map tool](https://pkgs.org/search/?q=bmaptool&on=files) (`bmaptool copy [Image-URL (….img.gz)] [USB-Stick-Gerät]`).
+Für die Installation des FSFW-Schulsticks braucht es einen USB-Stick guter Qualität mit mindestens 16 (besser 32) Gigabyte Kapazität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt. Wer die Kommandozeile nutzen mag, nimmt auf Linux am besten das [block map tool](https://pkgs.org/search/?q=bmaptool&on=files) (`bmaptool copy [Image-URL (….img.gz)] [USB-Stick-Gerät]`).
 
 Damit einfach die komprimierte Image-Datei auswählen und auf den Stick "flashen". Das Programm verifiziert den erzeugten Stick auch, so dass bei erfolgreich vermeldetem Abschluss der Stick auch funktionieren sollte.
 Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da sich die Persistenz-Partition beim ersten Start auf die verfügbare Größe anpasst.
 
-> **Image-Datei** (11,2 GiB):
+> **Image-Datei** (12,8 GiB):
 > 
-> [FSFW-Schulstick_2405d_Xfce_bullseye-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2405d_Xfce_bullseye-amd64.hybrid.img.gz)
+> [FSFW-Schulstick_2623w_Xfce_bookworm-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2623w_Xfce_bookworm-amd64.hybrid.img.gz)
 >
-> zugehörige **SHA256-Prüfsumme**: `1799bffec8357b7cc6d0a5f4e87fd6889449409ab6bfb4f4a087ad795a04a4a6`
+> zugehörige **SHA256-Prüfsumme**: `4b7c6dce073e2cf2a16ffa78f10a28db2163c2fa0873078405827392a0a08217`
 {: .downloads .right}
 
 </section>
@@ -49,12 +44,11 @@ Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da si
 <section class="centered" markdown="1">
 
 ## Verbesserungsvorschläge — Freie Software lebt vom Mitmachen : )
-
 Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie man etwas besser machen kann:<br/>
 einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-linux) oben unter [Issues](https://github.com/fsfw-dresden/usb-live-linux/issues) einen neuen Fall anlegen.
 
 ## Förderung durch das Sächsische Staatsministerium für Kultus
-Wir sind mit einem Förderantrag im Rahmen der Initiative "Digitale Schule Sachsen" erfolgreich gewesen und freuen uns auf die Chance, mit dieser Unterstützung an einem „Selbstlernportal“ für freie Software arbeiten zu können. Wir finalisieren im Moment die technische Ausschreibung, um dann die Programmierarbeit ausschreiben zu können. Kern des Unterfangens ist eine Python/Qt-Portal-App für Open Educational Resources mit Tutorials, Walk-Throughs und Challenges für auf dem Stick vorhandene Software. Wir sind im Augenblick dabei, uns dazu auch didaktische Unterstützung ins Boot zu holen und sind optimistisch, in den nächsten Monaten überzeugende Ergebnisse präsentieren zu können.
+Wir sind mit einem Förderantrag im Rahmen der Initiative "Digitale Schule Sachsen" erfolgreich gewesen und freuen uns auf die Chance, mit dieser Unterstützung an einem „Selbstlernportal“ für freie Software arbeiten zu können. Wir finalisieren im Moment die technische Roadmap, um dann die Programmierarbeit auszuschreiben und mit der mediendidaktischen Entwicklung zu beginnen. Kern des Unterfangens ist eine Python/Qt-Portal-App für Open Educational Resources mit Tutorials, Walk-Throughs und Challenges für auf dem Stick vorhandene Software. Wir sind im Augenblick dabei, uns dazu auch didaktische Unterstützung ins Boot zu holen und sind optimistisch, in den nächsten Monaten überzeugende Ergebnisse präsentieren zu können.
 
 ## Weitere Pläne
 - Barrierefreiheit prüfen und verbessern
@@ -68,7 +62,6 @@ Wir sind mit einem Förderantrag im Rahmen der Initiative "Digitale Schule Sachs
 <section class="centered" markdown="1">
 
 ## Kurzvorstellung des FSFW-Stick-Projekts
-
 {% include video.html youtubeid="9XeJtgMcmKk" alttext="Video: Vorstellung des FSFW-Stick-Projekts bei der Dresden OpenSource UserGroup" %}
 
 </section>
