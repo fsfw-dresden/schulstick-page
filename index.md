@@ -25,15 +25,16 @@ Einige weitere Informationen und Screenshots zum Stick-Projekt finden Sie auf de
 <section class="two-columns" markdown="1">
 
 ## Download und Bespielen eines USB-Sticks
-Die aktuelle Version (2688f / 2023-12-04) basiert auf Debian-Linux 12 (stable, codename »bookworm«) mit dem Xfce-Desktop.
+Die aktuelle Version basiert auf Debian-Linux 12 (stable, codename »bookworm«) mit dem Xfce-Desktop.
 
 Für die Installation des FSFW-Schulsticks braucht es einen USB-Stick guter Qualität mit mindestens 16 (besser 32) Gigabyte Kapazität. Weiterhin braucht man ein spezielles Programm, um das Bespielen durchzuführen. Wir empfehlen dafür den [Etcher](https://www.balena.io/etcher/), den es dort für verschiedene Betriebssysteme zum Download gibt. Wer die Kommandozeile nutzen mag, nimmt auf Linux am besten das [block map tool](https://pkgs.org/search/?q=bmaptool&on=files) (`bmaptool copy [Image-URL (….img.gz)] [USB-Stick-Gerät]`).
 
 Damit einfach die komprimierte Image-Datei auswählen und auf den Stick "flashen". Das Programm verifiziert den erzeugten Stick auch, so dass bei erfolgreich vermeldetem Abschluss der Stick auch funktionieren sollte.
 Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da sich die Persistenz-Partition beim ersten Start auf die verfügbare Größe anpasst.
 
-> **Image-Datei** (14,1 GiB):
+> **Image-Datei** (Version 2688f vom 2023-12-04 14,1 GiB):
 > 
+> ⚠️ Outdated / New version coming Monday evening
 > [FSFW-Schulstick_2688f_Xfce_bookworm-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2688f_Xfce_bookworm-amd64.hybrid.img.gz)
 >
 > zugehörige **SHA256-Prüfsumme**: `c4376b1e2f9c745b4063aaeecbbe7e606bedd18d010803e94bef45669797b2c5`
