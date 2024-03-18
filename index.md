@@ -32,12 +32,12 @@ Für die Installation des FSFW-Schulsticks braucht es einen USB-Stick guter Qual
 Damit einfach die komprimierte Image-Datei auswählen und auf den Stick "flashen". Das Programm verifiziert den erzeugten Stick auch, so dass bei erfolgreich vermeldetem Abschluss der Stick auch funktionieren sollte.
 Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da sich die Persistenz-Partition beim ersten Start auf die verfügbare Größe anpasst.
 
-> **Image-Datei** (Version 2688f vom 2023-12-04 14,1 GiB):
+> **Image-Datei** (Version 2791g vom 2024-03-15 14,4 GiB):
 > 
-> ⚠️ Outdated / New version coming Monday evening
-> [FSFW-Schulstick_2688f_Xfce_bookworm-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2688f_Xfce_bookworm-amd64.hybrid.img.gz)
+> ⚠️ Updated version coming Monday evening
+> [FSFW-Schulstick_2791g_Xfce_bookworm-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2791g_Xfce_bookworm-amd64.hybrid.img.gz)
 >
-> zugehörige **SHA256-Prüfsumme**: `c4376b1e2f9c745b4063aaeecbbe7e606bedd18d010803e94bef45669797b2c5`
+> zugehörige **SHA256-Prüfsumme**: `80d21479ccb36207026dc51474f8483d50d1872a6a2043f33ad6adde34d0c98e`
 {: .downloads .right}
 
 </section>
