@@ -34,7 +34,6 @@ Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da si
 
 > **Image-Datei** (Version 2791g vom 2024-03-15 14,4 GiB):
 > 
-> ℹ️ Updated version coming this evening
 > [FSFW-Schulstick_2791g_Xfce_bookworm-amd64.hybrid.img.gz](https://ftp.inf.tu-dresden.de/os/FSFW/FSFW-Schulstick_2791g_Xfce_bookworm-amd64.hybrid.img.gz)
 >
 > zugehörige **SHA256-Prüfsumme**: `80d21479ccb36207026dc51474f8483d50d1872a6a2043f33ad6adde34d0c98e`
