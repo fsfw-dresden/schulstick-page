@@ -43,8 +43,8 @@ Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da si
 ---
 <section class="centered" markdown="1">
 
-## Hackathon 2024-12-11
-📣 Hackathon für Schulstick-Lektionen! 🚀<br/>
+## Hackathon
+📣 … für Schulstick-Anwendungs-Tutorials! 🚀<br/>
 Am 11. Dezember um 18 Uhr starten wir mit euch durch und erstellen weitere #OER-Lektionen für die Portal-App auf dem Schulstick. Ziel ist es, Kindern #FLOSS -Apps direkt auf dem #Linux Live-USB-Stick vorzustellen und ihnen die Nutzung dieser zu erklären. Seid dabei & gestaltet die Zukunft der Bildung! ✨ 
 
 👉 Wo? Kommt nach Dresden in den C3D2-Hackspace des Zentralwerks: https://c3d2.de/space.html<br/>
