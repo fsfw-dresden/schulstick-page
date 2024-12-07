@@ -43,6 +43,21 @@ Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da si
 ---
 <section class="centered" markdown="1">
 
+## Hackathon 2024-12-11
+📣 Hackathon für Schulstick-Lektionen! 🚀<br/>
+Am 11. Dezember um 18 Uhr starten wir mit euch durch und erstellen weitere #OER-Lektionen für die Portal-App auf dem Schulstick. Ziel ist es, Kindern #FLOSS -Apps direkt auf dem #Linux Live-USB-Stick vorzustellen und ihnen die Nutzung dieser zu erklären. Seid dabei & gestaltet die Zukunft der Bildung! ✨ 
+
+👉 Wo? Kommt nach Dresden in den C3D2-Hackspace des Zentralwerks: https://c3d2.de/space.html<br/>
+💻 Bitte Laptop mitbringen, falls vorhanden! Ihr bekommt einen #Schulstick mit einem LiaSkript-Editor, mit dem ihr direkt loslegen könnt!<br/>
+🥙 Leckeres Essen & 🥤 Getränke warten auf euch! Wir werden bis Mitternacht da sein.<br/>
+🌏 Online-Teilnehmende: https://schulstick.org#hackathon
+
+#Hackathon #EdTech #digitaleBildung #OERde #OpenSource #FediLZ
+
+</section>
+---
+<section class="centered" markdown="1">
+
 ## Verbesserungsvorschläge — Freie Software lebt vom Mitmachen : )
 Falls Probleme auftreten, ihr eine Funktion vermisst oder eine Idee habt, wie man etwas besser machen kann:<br/>
 einfach auf der [Github-Projekt-Seite](https://github.com/fsfw-dresden/usb-live-linux) oben unter [Issues](https://github.com/fsfw-dresden/usb-live-linux/issues) einen neuen Fall anlegen.
