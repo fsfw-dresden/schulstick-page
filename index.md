@@ -50,7 +50,7 @@ Am 11. Dezember um 18 Uhr starten wir mit euch durch und erstellen weitere #OER-
 👉 Wo? Kommt nach Dresden in den C3D2-Hackspace des Zentralwerks: https://c3d2.de/space.html<br/>
 💻 Bitte Laptop mitbringen, falls vorhanden! Ihr bekommt einen #Schulstick mit einem LiaSkript-Editor, mit dem ihr direkt loslegen könnt!<br/>
 🥙 Leckeres Essen & 🥤 Getränke warten auf euch! Wir werden bis Mitternacht da sein.<br/>
-🌏 Online-Teilnehmende: https://schulstick.org#hackathon
+🌏 Online-Teilnehmende: BigBlueButton-Link wird hier kurz vor Beginn eingestellt.
 
 #Hackathon #EdTech #digitaleBildung #OERde #OpenSource #FediLZ
 
