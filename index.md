@@ -47,7 +47,7 @@ Das Image kann für USB-Sticks mit 16 Gigabyte oder mehr verwendet werden, da si
 📣 … für Schulstick-Anwendungs-Tutorials! 🚀<br/>
 Am 11. Dezember um 18 Uhr starten wir mit euch durch und erstellen weitere #OER-Lektionen für die Portal-App auf dem Schulstick. Ziel ist es, Kindern #FLOSS -Apps direkt auf dem #Linux Live-USB-Stick vorzustellen und ihnen die Nutzung dieser zu erklären. Seid dabei & gestaltet die Zukunft der Bildung! ✨ 
 
-👉 Wo? Kommt nach Dresden in den C3D2-Hackspace des Zentralwerks: https://c3d2.de/space.html<br/>
+👉 Wo? Kommt nach Dresden in den C3D2-Hackspace des Zentralwerks: <<</>> [C3D2Hackspace](https://c3d2.de/space.html)<br/>
 💻 Bitte Laptop mitbringen, falls vorhanden! Ihr bekommt einen #Schulstick mit einem LiaSkript-Editor, mit dem ihr direkt loslegen könnt!<br/>
 🥙 Leckeres Essen & 🥤 Getränke warten auf euch! Wir werden bis Mitternacht da sein.<br/>
 🌏 Online-Teilnehmende: BigBlueButton-Link wird hier kurz vor Beginn eingestellt.
